@@ -1,0 +1,4390 @@
+[
+  {
+    "id": "water",
+    "name_tr": "Su",
+    "name_en": "Water",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Temel bileşen."
+  },
+  {
+    "id": "sugar",
+    "name_tr": "Şeker",
+    "name_en": "Sugar",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Fazla tüketimi önerilmez."
+  },
+  {
+    "id": "salt",
+    "name_tr": "Tuz",
+    "name_en": "Salt",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Yüksek miktarda tüketimi tansiyon riski oluşturur."
+  },
+  {
+    "id": "cocoa_butter",
+    "name_tr": "Kakao yağı",
+    "name_en": "Cocoa butter",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Çikolatanın ana yağıdır."
+  },
+  {
+    "id": "cocoa_mass",
+    "name_tr": "Kakao kitlesi",
+    "name_en": "Cocoa mass",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Çikolatanın ham maddesidir."
+  },
+  {
+    "id": "sunflower_oil",
+    "name_tr": "Ayçiçek yağı",
+    "name_en": "Sunflower oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Bitkisel yağ."
+  },
+  {
+    "id": "olive_oil",
+    "name_tr": "Zeytinyağı",
+    "name_en": "Olive oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Sağlıklı yağ grubu."
+  },
+  {
+    "id": "palm_oil",
+    "name_tr": "Palm yağı",
+    "name_en": "Palm oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Yüksek doymuş yağ içerir."
+  },
+  {
+    "id": "milk",
+    "name_tr": "Süt",
+    "name_en": "Milk",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt alerjisi ve laktoz intoleransı için risklidir."
+  },
+  {
+    "id": "milk_powder",
+    "name_tr": "Süt tozu",
+    "name_en": "Milk powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür."
+  },
+  {
+    "id": "whey_powder",
+    "name_tr": "Peyniraltı suyu tozu",
+    "name_en": "Whey powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini içerir."
+  },
+  {
+    "id": "lactose",
+    "name_tr": "Laktoz",
+    "name_en": "Lactose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt şekeridir."
+  },
+  {
+    "id": "butter_oil",
+    "name_tr": "Tereyağı yağı",
+    "name_en": "Butter oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt kaynaklı yağ."
+  },
+  {
+    "id": "wheat",
+    "name_tr": "Buğday",
+    "name_en": "Wheat",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "wheat_flour",
+    "name_tr": "Buğday unu",
+    "name_en": "Wheat flour",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "barley",
+    "name_tr": "Arpa",
+    "name_en": "Barley",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "rye",
+    "name_tr": "Çavdar",
+    "name_en": "Rye",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "oats",
+    "name_tr": "Yulaf",
+    "name_en": "Oats",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Çapraz bulaşma ile glüten içerebilir."
+  },
+  {
+    "id": "egg",
+    "name_tr": "Yumurta",
+    "name_en": "Egg",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Ana alerjenlerden biridir."
+  },
+  {
+    "id": "egg_white",
+    "name_tr": "Yumurta akı",
+    "name_en": "Egg white",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Yumurta proteini içerir."
+  },
+  {
+    "id": "soy",
+    "name_tr": "Soya",
+    "name_en": "Soy",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Soya alerjenidir."
+  },
+  {
+    "id": "peanut",
+    "name_tr": "Yer fıstığı",
+    "name_en": "Peanut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Ciddi alerjik reaksiyon riski taşır."
+  },
+  {
+    "id": "hazelnut",
+    "name_tr": "Fındık",
+    "name_en": "Hazelnut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Kuruyemiş alerjisi."
+  },
+  {
+    "id": "almond",
+    "name_tr": "Badem",
+    "name_en": "Almond",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Kuruyemiş alerjisi."
+  },
+  {
+    "id": "sesame",
+    "name_tr": "Susam",
+    "name_en": "Sesame",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Güçlü bir alerjendir."
+  },
+  {
+    "id": "fish",
+    "name_tr": "Balık",
+    "name_en": "Fish",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Balık proteini içerir."
+  },
+  {
+    "id": "crustaceans",
+    "name_tr": "Kabuklu deniz ürünleri",
+    "name_en": "Crustacean",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Karides, yengeç vb."
+  },
+  {
+    "id": "soy_lecithin",
+    "name_tr": "Soya lesitini",
+    "name_en": "Soy lecithin",
+    "e_code": "E322",
+    "type": "additive",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "orta",
+    "note_tr": "Soya kökenli emülgatör."
+  },
+  {
+    "id": "msg",
+    "name_tr": "Monosodyum glutamat",
+    "name_en": "Monosodium glutamate",
+    "e_code": "E621",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Lezzet artırıcı. Çin tuzu olarak bilinir."
+  },
+  {
+    "id": "e102",
+    "name_tr": "Tartrazin",
+    "name_en": "Tartrazine",
+    "e_code": "E102",
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Yapay renklendirici (Sarı)."
+  },
+  {
+    "id": "e110",
+    "name_tr": "Sunset Yellow",
+    "name_en": "Sunset Yellow",
+    "e_code": "E110",
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Yapay renklendirici (Turuncu)."
+  },
+  {
+    "id": "e122",
+    "name_tr": "Karmoizin",
+    "name_en": "Carmoisine",
+    "e_code": "E122",
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Yapay renklendirici (Kırmızı)."
+  },
+  {
+    "id": "e129",
+    "name_tr": "Allura Kırmızısı",
+    "name_en": "Allura Red",
+    "e_code": "E129",
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Yapay renklendirici (Kırmızı)."
+  },
+  {
+    "id": "e211",
+    "name_tr": "Sodyum benzoat",
+    "name_en": "Sodium benzoate",
+    "e_code": "E211",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Koruyucu madde."
+  },
+  {
+    "id": "e250",
+    "name_tr": "Sodyum nitrit",
+    "name_en": "Sodium nitrite",
+    "e_code": "E250",
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Şarküteri ürünlerinde koruyucu. Riskli olabilir."
+  },
+  {
+    "id": "aspartame",
+    "name_tr": "Aspartam",
+    "name_en": "Aspartame",
+    "e_code": "E951",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Yapay tatlandırıcı."
+  },
+  {
+    "id": "celery",
+    "name_tr": "Kereviz",
+    "name_en": "Celery",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Kereviz ve kereviz ürünleri alerjik reaksiyona sebep olabilir."
+  },
+  {
+    "id": "hfcs",
+    "name_tr": "Yüksek fruktozlu mısır şurubu",
+    "name_en": "High fructose corn syrup",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Mısır şurubu. Obezite riski taşır."
+  },
+  {
+    "id": "titanium_dioxide",
+    "name_tr": "Titanyum dioksit",
+    "name_en": "Titanium dioxide",
+    "e_code": "E171",
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Beyazlatıcı renklendirici. Bazı ülkelerde yasaktır."
+  },
+  {
+    "id": "carrageenan",
+    "name_tr": "Karagenan",
+    "name_en": "Carrageenan",
+    "e_code": "E407",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Kıvam artırıcı."
+  },
+  {
+    "id": "e476",
+    "name_tr": "Poligliserol polirisinoleat",
+    "name_en": "PGPR",
+    "e_code": "E476",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Çikolatalarda emülgatör olarak kullanılır."
+  },
+  {
+    "id": "water",
+    "name_tr": "Su",
+    "name_en": "Water",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Temel bileşen."
+  },
+  {
+    "id": "sugar",
+    "name_tr": "Şeker",
+    "name_en": "Sugar",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Fazla tüketimi önerilmez."
+  },
+  {
+    "id": "caramel",
+    "name_tr": "Karamel",
+    "name_en": "Caramel",
+    "e_code": "E150",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Renklendirici madde (E150)."
+  },
+  {
+    "id": "colorant",
+    "name_tr": "Renklendirici",
+    "name_en": "Colorant",
+    "e_code": null,
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Genel renklendirici uyarısı."
+  },
+  {
+    "id": "phosphoric_acid",
+    "name_tr": "Fosforik Asit",
+    "name_en": "Phosphoric acid",
+    "e_code": "E338",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Asitlik düzenleyici. Diş minesine zarar verebilir."
+  },
+  {
+    "id": "acidity_regulator",
+    "name_tr": "Asitlik Düzenleyici",
+    "name_en": "Acidity regulator",
+    "e_code": null,
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdanın asitliğini dengeler."
+  },
+  {
+    "id": "caffeine",
+    "name_tr": "Kafein",
+    "name_en": "Caffeine",
+    "e_code": null,
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Uyarıcı madde. Çocuklar ve hamileler dikkat etmeli."
+  },
+  {
+    "id": "sucralose",
+    "name_tr": "Sukraloz",
+    "name_en": "Sucralose",
+    "e_code": "E955",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Yapay tatlandırıcı."
+  },
+  {
+    "id": "sweetener",
+    "name_tr": "Tatlandırıcı",
+    "name_en": "Sweetener",
+    "e_code": null,
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Yapay veya doğal tatlandırıcı içerir."
+  },
+  {
+    "id": "aspartame",
+    "name_tr": "Aspartam",
+    "name_en": "Aspartame",
+    "e_code": "E951",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Yapay tatlandırıcı. Fenilalanin içerir."
+  },
+  {
+    "id": "acesulfame_k",
+    "name_tr": "Asesülfam K",
+    "name_en": "Acesulfame K",
+    "e_code": "E950",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Yapay tatlandırıcı."
+  },
+  {
+    "id": "sodium_benzoate",
+    "name_tr": "Sodyum Benzoat",
+    "name_en": "Sodium benzoate",
+    "e_code": "E211",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Koruyucu madde."
+  },
+  {
+    "id": "milk",
+    "name_tr": "Süt",
+    "name_en": "Milk",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt bileşeni."
+  },
+  {
+    "id": "gluten",
+    "name_tr": "Glüten",
+    "name_en": "Gluten",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Alerjen uyarısı."
+  },
+  {
+    "id": "paraben",
+    "name_tr": "Paraben",
+    "name_en": "Paraben",
+    "e_code": null,
+    "type": "cosmetic",
+    "categories": ["yuksek_risk", "katki"],
+    "risk_level": "yuksek",
+    "note_tr": "Raf ömrünü uzatır ancak hormonal dengeyi (Endokrin) bozabilir. Hassas ciltlerde tahrişe yol açar."
+  },
+  {
+    "id": "sls",
+    "name_tr": "Sodyum Lauril Sülfat",
+    "name_en": "Sodium Lauryl Sulfate",
+    "e_code": null,
+    "type": "cosmetic",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "orta",
+    "note_tr": "Köpürtücü ajandır. Cildin doğal yağ bariyerini yok ederek kuruluğa ve alerjiye sebep olabilir."
+  },
+  {
+    "id": "fragrance",
+    "name_tr": "Parfüm",
+    "name_en": "Fragrance",
+    "e_code": null,
+    "type": "cosmetic",
+    "categories": ["alerjen"],
+    "risk_level": "orta",
+    "note_tr": "İçeriği gizli tutulan binlerce kimyasalın karışımı olabilir. Egzama ve kontakt dermatit tetikleyicisidir."
+  },
+  {
+    "id": "flavoring",
+    "name_tr": "Aroma Verici",
+    "name_en": "Flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Gıdanın tadını veya kokusunu artırmak için kullanılan doğal veya sentetik bileşenler."
+  },
+  {
+    "id": "stevia",
+    "name_tr": "Stevia",
+    "name_en": "Stevia",
+    "e_code": "E960",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Kan şekerini yükseltmeyen, kalorisiz doğal bitkisel tatlandırıcı."
+  },
+  {
+    "id": "butter",
+    "name_tr": "Tereyağı",
+    "name_en": "Butter",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Laktoz veya süt proteini alerjisi olanlar dikkat etmelidir."
+  },
+  {
+    "id": "sodium_caseinate",
+    "name_tr": "Sodyum Kazeinat",
+    "name_en": "Sodium caseinate",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini türevidir. Süt alerjisi olanlar için yüksek risk taşır."
+  },
+  {
+    "id": "yogurt_powder",
+    "name_tr": "Yoğurt tozu",
+    "name_en": "Yogurt powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünü türevidir. Laktoz intoleransı ve süt alerjisi olanlar için risklidir."
+  },
+  {
+    "id": "chicory_root_fiber",
+    "name_tr": "Hindiba kökü lifi",
+    "name_en": "Chicory root fiber",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "İnülin olarak da bilinir. Sindirimi düzenleyen bağırsak dostu prebiyotik lif kaynağıdır."
+  },
+  {
+    "id": "e331",
+    "name_tr": "Trisodyum Sitrat",
+    "name_en": "Trisodium citrate",
+    "e_code": "E331",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Sitrik asidin sodyum tuzudur. Güvenli bir asitlik düzenleyicidir."
+  },
+  {
+    "id": "e508",
+    "name_tr": "Potasyum Klorür",
+    "name_en": "Potassium chloride",
+    "e_code": "E508",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Sodyum alımını azaltmak için genellikle sofra tuzu ikamesi veya jelleştirici olarak kullanılır."
+  },
+  {
+    "id": "canola_oil",
+    "name_tr": "Kanola yağı",
+    "name_en": "Canola oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "İşlenmiş bitkisel tohum yağı. Yüksek ısıda yapısı bozulabilir."
+  },
+  {
+    "id": "corn_oil",
+    "name_tr": "Mısır özü yağı",
+    "name_en": "Corn oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Omega-6 oranı yüksek işlenmiş bitkisel yağ. Aşırı tüketimi inflamasyonu tetikleyebilir."
+  },
+  {
+    "id": "starch",
+    "name_tr": "Nişasta",
+    "name_en": "Starch",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Kan şekerini hızlı yükseltebilen karbonhidrat kaynağı (Örn: Mısır veya patates nişastası)."
+  },
+  {
+    "id": "sunflower_seeds",
+    "name_tr": "Ay çekirdeği",
+    "name_en": "Sunflower seeds",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Yağlı tohumdur. Kavrulmuş ve çok tuzlu olanların tüketimi sınırlandırılmalıdır."
+  },
+{
+    "id": "salt",
+    "name_tr": "Tuz",
+    "name_en": "Salt",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Yüksek miktarda tüketimi tansiyon riski oluşturur."
+  },
+  {
+    "id": "wheat_flour",
+    "name_tr": "Buğday Unu",
+    "name_en": "Wheat flour",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir. Çölyak ve glüten hassasiyeti olanlar için risklidir."
+  },
+  {
+    "id": "whey_powder",
+    "name_tr": "Peyniraltı Suyu Tozu",
+    "name_en": "Whey powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini ve laktoz içerir. Cipslerde ve atıştırmalıklarda sık kullanılır."
+  },
+  {
+    "id": "milk_powder",
+    "name_tr": "Süt Tozu",
+    "name_en": "Milk powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Laktoz intoleransı olanlar dikkat etmelidir."
+  },
+  {
+    "id": "butter",
+    "name_tr": "Tereyağı",
+    "name_en": "Butter",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Hayvansal (süt) kökenli bir yağdır. Veganlar ve süt alerjisi olanlar tüketmemelidir."
+  },
+  {
+    "id": "egg",
+    "name_tr": "Yumurta",
+    "name_en": "Egg",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Ana alerjenlerden biridir. Bisküvi ve keklerde yaygındır."
+  },
+  {
+    "id": "peanut",
+    "name_tr": "Yer fıstığı",
+    "name_en": "Peanut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Çok güçlü bir alerjendir. Anafilaksi riski taşıyabilir."
+  },
+  {
+    "id": "hazelnut",
+    "name_tr": "Fındık",
+    "name_en": "Hazelnut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Yaygın bir kuruyemiş alerjenidir."
+  },
+  {
+    "id": "pistachio",
+    "name_tr": "Antep Fıstığı",
+    "name_en": "Pistachio",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve alerjenidir."
+  },
+  {
+    "id": "almond",
+    "name_tr": "Badem",
+    "name_en": "Almond",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve alerjenidir."
+  },
+  {
+    "id": "walnut",
+    "name_tr": "Ceviz",
+    "name_en": "Walnut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve alerjenidir."
+  },
+  {
+    "id": "cashew",
+    "name_tr": "Kaju",
+    "name_en": "Cashew",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve alerjenidir."
+  },
+  {
+    "id": "sesame",
+    "name_tr": "Susam",
+    "name_en": "Sesame",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Güçlü bir alerjendir."
+  },
+  {
+    "id": "soy",
+    "name_tr": "Soya",
+    "name_en": "Soy",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Soya fasulyesi türevleri alerjik reaksiyonlara sebep olabilir."
+  },
+  {
+    "id": "flavoring",
+    "name_tr": "Aroma Verici",
+    "name_en": "Flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Gıdanın kokusunu/tadını değiştiren sentetik veya doğal bileşenler."
+  },
+  {
+    "id": "msg",
+    "name_tr": "Monosodyum Glutamat",
+    "name_en": "Monosodium glutamate",
+    "e_code": "E621",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Lezzet artırıcı Çin Tuzu. Hassas kişilerde baş ağrısı yapabilir."
+  },
+  {
+    "id": "e635",
+    "name_tr": "Disodyum 5'-ribonükleotidler",
+    "name_en": "Disodium 5'-ribonucleotides",
+    "e_code": "E635",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Cipslerde MSG ile birlikte kullanılan yoğun lezzet artırıcı."
+  },
+  {
+    "id": "glucose_syrup",
+    "name_tr": "Glukoz Şurubu",
+    "name_en": "Glucose syrup",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Kan şekerini çok hızlı yükselten sıvı tatlandırıcı."
+  },
+  {
+    "id": "sunflower_oil",
+    "name_tr": "Ayçiçek yağı",
+    "name_en": "Sunflower oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Yaygın bir bitkisel yağdır."
+  },
+  {
+    "id": "canola_oil",
+    "name_tr": "Kanola yağı",
+    "name_en": "Canola oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "İşlenmiş tohum yağı. Yüksek ısıda yapısı bozulabilir."
+  },
+  {
+    "id": "palm_oil",
+    "name_tr": "Palm yağı",
+    "name_en": "Palm oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Yüksek doymuş yağ içerir."
+  },
+  {
+    "id": "corn_oil",
+    "name_tr": "Mısır özü yağı",
+    "name_en": "Corn oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Omega-6 oranı yüksek bitkisel yağ."
+  },
+  {
+    "id": "starch",
+    "name_tr": "Nişasta",
+    "name_en": "Starch",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Karbonhidrat kaynağıdır."
+  },
+  {
+    "id": "malic_acid",
+    "name_tr": "Malik Asit",
+    "name_en": "Malic acid",
+    "e_code": "E296",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Elma asidi olarak da bilinen ekşilik veren asitlik düzenleyici."
+  },
+  {
+    "id": "citric_acid",
+    "name_tr": "Sitrik Asit",
+    "name_en": "Citric acid",
+    "e_code": "E330",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Limon tuzu. Doğal koruyucu ve asitlik düzenleyicidir."
+  },
+  {
+    "id": "sodium_caseinate",
+    "name_tr": "Sodyum Kazeinat",
+    "name_en": "Sodium caseinate",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "dikkat",
+    "note_tr": "Kahve beyazlatıcılarında kullanılan süt proteini türevi alerjen maddedir."
+  },
+  {
+    "id": "emulsifier",
+    "name_tr": "Emülgatör",
+    "name_en": "Emulsifier",
+    "e_code": "E471",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Su ve yağın karışmasını sağlayan doku düzenleyici bileşen."
+  },
+  {
+    "id": "guar_gum",
+    "name_tr": "Guar Gam",
+    "name_en": "Guar gum",
+    "e_code": "E412",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Kıvam artırıcı maddedir."
+  },
+  {
+    "id": "stevia",
+    "name_tr": "Stevia",
+    "name_en": "Stevia",
+    "e_code": "E960",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Kan şekerini yükseltmeyen kalorisiz bitkisel tatlandırıcı."
+  },
+  {
+    "id": "strawberry",
+    "name_tr": "Çilek",
+    "name_en": "Strawberry",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve. Temiz içerik."
+  },
+  {
+    "id": "apple",
+    "name_tr": "Elma",
+    "name_en": "Apple",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve. Temiz içerik."
+  },
+  {
+    "id": "date",
+    "name_tr": "Hurma",
+    "name_en": "Date",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve ve doğal tatlandırıcı. Temiz içerik."
+  },
+  {
+    "id": "lemon_juice",
+    "name_tr": "Limon Suyu",
+    "name_en": "Lemon juice",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal asitlik düzenleyici ve aroma verici."
+  },
+  {
+    "id": "hibiscus",
+    "name_tr": "Hibiskus",
+    "name_en": "Hibiscus",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal bitki çayı bileşeni. Ekşimsi tat verir."
+  },
+  {
+    "id": "rooibos",
+    "name_tr": "Rooibos",
+    "name_en": "Rooibos",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Kafeinsiz doğal Güney Afrika bitkisi."
+  },
+  {
+    "id": "licorice_root",
+    "name_tr": "Meyan Kökü",
+    "name_en": "Licorice root",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Doğal tatlandırıcı kök. Yüksek tansiyon hastalarının aşırı tüketimden kaçınması önerilir."
+  },
+  {
+    "id": "rosehip",
+    "name_tr": "Kuşburnu",
+    "name_en": "Rosehip",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "C vitamini açısından zengin doğal bitki."
+  },
+  {
+    "id": "pomegranate_peel",
+    "name_tr": "Nar Kabuğu",
+    "name_en": "Pomegranate peel",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal antioksidan kaynağı."
+  },
+  {
+    "id": "orange_peel",
+    "name_tr": "Portakal Kabuğu",
+    "name_en": "Orange peel",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma verici."
+  },
+  {
+    "id": "red_beetroot",
+    "name_tr": "Kırmızı Pancar",
+    "name_en": "Red beetroot",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal sebze. Gıdalarda doğal renklendirici olarak da sıkça kullanılır."
+  },
+  {
+    "id": "potato",
+    "name_tr": "Patates",
+    "name_en": "Potato",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Temel sebze ve karbonhidrat kaynağı."
+  },
+  {
+    "id": "parsley",
+    "name_tr": "Maydanoz",
+    "name_en": "Parsley",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal yeşillik."
+  },
+  {
+    "id": "dill",
+    "name_tr": "Dereotu",
+    "name_en": "Dill",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal yeşillik."
+  },
+  {
+    "id": "mint",
+    "name_tr": "Nane",
+    "name_en": "Mint",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal yeşillik ve ferahlatıcı bitki."
+  },
+  {
+    "id": "garlic_powder",
+    "name_tr": "Sarımsak Tozu",
+    "name_en": "Garlic powder",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal sebze tozu. Temiz lezzet artırıcı."
+  },
+  {
+    "id": "onion_powder",
+    "name_tr": "Soğan Tozu",
+    "name_en": "Onion powder",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal sebze tozu. Temiz lezzet artırıcı."
+  },
+  {
+    "id": "rice_flour",
+    "name_tr": "Pirinç Unu",
+    "name_en": "Rice flour",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Glütensiz un alternatifi. Temiz karbonhidrat."
+  },
+  {
+    "id": "corn_flour",
+    "name_tr": "Mısır Unu",
+    "name_en": "Corn flour",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Glütensiz un alternatifi."
+  },
+  {
+    "id": "chickpea_flour",
+    "name_tr": "Nohut Unu",
+    "name_en": "Chickpea flour",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Protein oranı yüksek, glütensiz bakliyat unu."
+  },
+  {
+    "id": "coffee_bean",
+    "name_tr": "Kahve Çekirdeği",
+    "name_en": "Coffee bean",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Doğal kafein kaynağı."
+  },
+  {
+    "id": "cocoa_powder",
+    "name_tr": "Kakao Tozu",
+    "name_en": "Cocoa powder",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal tatlandırıcı/renklendirici."
+  },
+  {
+    "id": "sunflower_lecithin",
+    "name_tr": "Ayçiçek Lesitini",
+    "name_en": "Sunflower lecithin",
+    "e_code": null,
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Soya lesitinine kıyasla alerji riski taşımayan, doğal kökenli zararsız bir emülgatör."
+  },
+  {
+    "id": "dipotassium_phosphate",
+    "name_tr": "Dipotasyum Fosfat",
+    "name_en": "Dipotassium phosphate",
+    "e_code": "E340",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Hazır kahvelerde topaklanmayı önleyen ve asitliği düzenleyen fosfat tuzu."
+  },
+  {
+    "id": "monopotassium_tartrate",
+    "name_tr": "Monopotasyum Tartarat",
+    "name_en": "Monopotassium tartrate",
+    "e_code": "E336",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Krem tartar olarak da bilinir. Bisküvilerde kabartıcı tozu destekleyen güvenli bir triptir."
+  },
+  {
+    "id": "tahini",
+    "name_tr": "Tahin",
+    "name_en": "Tahini",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Susam ezmesidir. Susam alerjisi olanlar için yüksek risk taşır."
+  },
+  {
+    "id": "date_juice",
+    "name_tr": "Hurma Suyu",
+    "name_en": "Date juice",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal bir tatlandırıcı ve meyve suyudur. Temiz içeriktir."
+  },
+  {
+    "id": "carob",
+    "name_tr": "Keçiboynuzu",
+    "name_en": "Carob",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal tatlandırıcı ve kakao alternatifidir. Harnup olarak da bilinir."
+  },
+  {
+    "id": "skimmed_milk_powder",
+    "name_tr": "Yağsız Süt Tozu",
+    "name_en": "Skimmed milk powder",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Laktoz intoleransı ve süt alerjisi için risklidir."
+  },
+  {
+    "id": "whole_milk_powder",
+    "name_tr": "Tam Yağlı Süttozu",
+    "name_en": "Whole milk powder",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Alerjen uyarısı gerektirir."
+  },
+  {
+    "id": "chocolate_powder",
+    "name_tr": "Çikolata Tozu",
+    "name_en": "Chocolate powder",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Kakao ve genellikle ilave şeker içerir."
+  },
+  {
+    "id": "lemon_oil",
+    "name_tr": "Limon Yağı",
+    "name_en": "Lemon oil",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma verici esansiyel yağ."
+  },
+  {
+    "id": "rapeseed_oil",
+    "name_tr": "Kolza Yağı",
+    "name_en": "Rapeseed oil",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Kanola yağının bir diğer adıdır. Aşırı işlenmiş bitkisel yağ sınıfındadır."
+  },
+  {
+    "id": "e450i",
+    "name_tr": "Disodyum Difosfat",
+    "name_en": "Disodium diphosphate",
+    "e_code": "E450",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Hamur işleri ve bisküvilerde yaygın kullanılan sentetik kabartıcı."
+  },
+  {
+    "id": "e451i",
+    "name_tr": "Pentasodyum Trifosfat",
+    "name_en": "Pentasodium triphosphate",
+    "e_code": "E451",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Hazır kahve ve işlenmiş etlerde su tutucu stabilizör."
+  },
+  {
+    "id": "e452i",
+    "name_tr": "Sodyum Polifosfat",
+    "name_en": "Sodium polyphosphate",
+    "e_code": "E452",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Emülsifiye edici tuz. Yüksek fosfor alımı kalsiyum emilimini olumsuz etkileyebilir."
+  },
+  {
+    "id": "e503ii",
+    "name_tr": "Amonyum Bikarbonat",
+    "name_en": "Ammonium bicarbonate",
+    "e_code": "E503",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Bisküvi ve krakerlerde kullanılan, ısıyla uçan güvenli bir kabartıcı maddedir."
+  },
+  {
+    "id": "oats",
+    "name_tr": "Yulaf",
+    "name_en": "Oats",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Lifli ve sağlıklı bir tahıldır ancak üretim hattından glüten bulaşma riski vardır."
+  },
+  {
+    "id": "coconut",
+    "name_tr": "Hindistan Cevizi",
+    "name_en": "Coconut",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve ve sağlıklı yağ kaynağı."
+  },
+  {
+    "id": "cinnamon",
+    "name_tr": "Tarçın",
+    "name_en": "Cinnamon",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Kan şekerini dengelemeye yardımcı doğal baharat."
+  },
+  {
+    "id": "ginger",
+    "name_tr": "Zencefil",
+    "name_en": "Ginger",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Sindirim dostu ve anti-inflamatuar doğal kök."
+  },
+  {
+    "id": "chia_seeds",
+    "name_tr": "Chia Tohumu",
+    "name_en": "Chia seeds",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Omega-3 ve lif açısından zengin doğal tohum."
+  },
+  {
+    "id": "flaxseed",
+    "name_tr": "Keten Tohumu",
+    "name_en": "Flaxseed",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Bitkisel Omega-3 kaynağı sağlıklı tohum."
+  },
+  {
+    "id": "pecan",
+    "name_tr": "Pikan Cevizi",
+    "name_en": "Pecan",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu kuruyemiş alerjenidir."
+  },
+  {
+    "id": "brazil_nut",
+    "name_tr": "Brezilya Fındığı",
+    "name_en": "Brazil nut",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu kuruyemiş alerjenidir."
+  },
+  {
+    "id": "macadamia",
+    "name_tr": "Macadamia Fındığı",
+    "name_en": "Macadamia nut",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu kuruyemiş alerjenidir."
+  },
+  {
+    "id": "mustard",
+    "name_tr": "Hardal",
+    "name_en": "Mustard",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Özellikle hazır soslar ve cipslerde alerjen olarak bulunabilir."
+  },
+  {
+    "id": "celery",
+    "name_tr": "Kereviz",
+    "name_en": "Celery",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Kereviz sapı veya tozu bazı atıştırmalıklarda gizli alerjen olabilir."
+  },
+  {
+    "id": "lupin",
+    "name_tr": "Acı Bakla",
+    "name_en": "Lupin",
+    "e_code": null,
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Baklagil ailesindendir, yer fıstığı alerjisi olanlarda çapraz reaksiyon yapabilir."
+  },
+  {
+    "id": "e450ii",
+    "name_tr": "Sodyum Asit Pirofosfat",
+    "name_en": "Sodium acid pyrophosphate",
+    "e_code": "E450i",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Hamur işlerinde kabartıcı olarak kullanılan bir fosfat tuzudur."
+  },
+  {
+    "id": "e472b",
+    "name_tr": "Laktik Asit Esterleri",
+    "name_en": "Lactic acid esters",
+    "e_code": "E472b",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Kek ve bisküvi gibi ürünlerde dokuyu iyileştiren bitkisel/hayvansal emülgatör."
+  },
+  {
+    "id": "e472e",
+    "name_tr": "Diasetiltartarik Asit Esterleri (DATEM)",
+    "name_en": "DATEM",
+    "e_code": "E472e",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Ekmeğin esnekliğini artıran, hazır gıdalarda çok sık kullanılan emülgatör."
+  },
+  {
+    "id": "e500i",
+    "name_tr": "Sodyum Karbonat",
+    "name_en": "Sodium carbonate",
+    "e_code": "E500i",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Asitlik düzenleyici ve kabartıcı olarak kullanılan doğal bazlı tuz."
+  },
+  {
+    "id": "e504",
+    "name_tr": "Magnezyum Karbonat",
+    "name_en": "Magnesium carbonate",
+    "e_code": "E504",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Topaklanmayı önleyici ve renk koruyucu olarak kullanılan mineral tuz."
+  },
+  {
+    "id": "inulin",
+    "name_tr": "İnülin",
+    "name_en": "Inulin",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal prebiyotik lif. Sindirim sistemini destekler."
+  },
+  {
+    "id": "pea_protein",
+    "name_tr": "Bezelye Proteini",
+    "name_en": "Pea protein",
+    "e_code": null,
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Bitkisel protein kaynağı. Veganlar için idealdir."
+  },
+  {
+    "id": "spelt",
+    "name_tr": "Kılçıksız buğday",
+    "name_en": "Spelt",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Gluten içeren tahıl ürünüdür."
+  },
+  {
+    "id": "kamut",
+    "name_tr": "Kamut buğdayı",
+    "name_en": "Kamut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Gluten içeren eski bir buğday türüdür."
+  },
+  {
+    "id": "egg_products",
+    "name_tr": "Yumurta ürünleri",
+    "name_en": "Egg products",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Yumurta türevi bileşenler içerir."
+  },
+  {
+    "id": "pecan_nut",
+    "name_tr": "Pikan cevizi",
+    "name_en": "Pecan nut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve / kuruyemiş alerjenidir."
+  },
+  {
+    "id": "brazil_nut",
+    "name_tr": "Brezilya fındığı",
+    "name_en": "Brazil nut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve / kuruyemiş alerjenidir."
+  },
+  {
+    "id": "macadamia_nut",
+    "name_tr": "Macadamia fındığı",
+    "name_en": "Macadamia nut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve / kuruyemiş alerjenidir."
+  },
+  {
+    "id": "queensland_nut",
+    "name_tr": "Queensland fındığı",
+    "name_en": "Queensland nut",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu meyve / kuruyemiş alerjenidir."
+  },
+  {
+    "id": "celery",
+    "name_tr": "Kereviz",
+    "name_en": "Celery",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Kereviz ve kereviz ürünleri alerjen reaksiyona sebep olabilir."
+  },
+  {
+    "id": "mustard",
+    "name_tr": "Hardal",
+    "name_en": "Mustard",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Hardal tohumu ve hardal ürünleri alerjen reaksiyona sebep olabilir."
+  },
+  {
+    "id": "sulfur_dioxide",
+    "name_tr": "Kükürt dioksit",
+    "name_en": "Sulfur dioxide",
+    "e_code": "E220",
+    "type": "additive",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "dikkat",
+    "note_tr": "10 mg/kg veya 10 mg/L üzerindeki konsantrasyonlarda alerjen uyarısı zorunludur."
+  },
+  {
+    "id": "sulfites",
+    "name_tr": "Sülfitler",
+    "name_en": "Sulphites",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "dikkat",
+    "note_tr": "10 mg/kg veya 10 mg/L üzerindeki konsantrasyonlarda sülfit uyarısı zorunludur."
+  },
+  {
+    "id": "lupin",
+    "name_tr": "Acı bakla",
+    "name_en": "Lupin",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Acı bakla ve ürünleri alerjenik proteinler barındırır."
+  },
+  {
+    "id": "molluscs",
+    "name_tr": "Yumuşakçalar",
+    "name_en": "Molluscs",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Midye, kalamar, ahtapot gibi yumuşakçaları ve ürünlerini kapsar."
+  },
+  {
+    "id": "sodium",
+    "name_tr": "Sodyum",
+    "name_en": "Sodium",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Tuz bileşenidir. Yüksek tüketimi tansiyon riskini artırır."
+  },
+  {
+    "id": "added_sugars",
+    "name_tr": "İlave şeker",
+    "name_en": "Added Sugars",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "yuksek",
+    "note_tr": "Ürüne sonradan eklenen şeker miktarıdır. Kardiyovasküler risk oluşturur."
+  },
+  {
+    "id": "sucrose",
+    "name_tr": "Sukroz",
+    "name_en": "Sucrose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Çay şekeri olarak bilinen disakkarit."
+  },
+  {
+    "id": "glucose",
+    "name_tr": "Glukoz",
+    "name_en": "Glucose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Kan şekeri olarak da bilinen basit şeker."
+  },
+  {
+    "id": "fructose",
+    "name_tr": "Fruktoz",
+    "name_en": "Fructose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Meyve şekeri. Fazla miktarda alımı karaciğer yağlanmasını tetikleyebilir."
+  },
+  {
+    "id": "galactose",
+    "name_tr": "Galaktoz",
+    "name_en": "Galactose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Süt şekerinin bileşenlerinden biri olan monosakkarit."
+  },
+  {
+    "id": "maltose",
+    "name_tr": "Maltoz",
+    "name_en": "Maltose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Malt şekeri."
+  },
+  {
+    "id": "maltodextrins",
+    "name_tr": "Maltodekstrin",
+    "name_en": "Maltodextrins",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Glisemik indeksi yüksek dolgu maddesi/karbonhidrat."
+  },
+  {
+    "id": "erythritol",
+    "name_tr": "Eritritol",
+    "name_en": "Erythritol",
+    "e_code": "E968",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Kalorisiz doğal şeker alkolü (poliol)."
+  },
+  {
+    "id": "isomalt",
+    "name_tr": "İzomalt",
+    "name_en": "Isomalt",
+    "e_code": "E953",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Şeker alkolü. Fazla tüketimi laksatif etki yaratabilir."
+  },
+  {
+    "id": "maltitol",
+    "name_tr": "Maltitol",
+    "name_en": "Maltitol",
+    "e_code": "E965",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Kan şekerini kısmen yükseltebilen şeker alkolü."
+  },
+  {
+    "id": "sorbitol",
+    "name_tr": "Sorbitol",
+    "name_en": "Sorbitol",
+    "e_code": "E420",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Nem tutucu ve tatlandırıcı şeker alkolü."
+  },
+  {
+    "id": "polydextrose",
+    "name_tr": "Polidekstroz",
+    "name_en": "Polydextrose",
+    "e_code": "E1200",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Hacim artırıcı ve yapay lif."
+  },
+  {
+    "id": "casein",
+    "name_tr": "Kazein",
+    "name_en": "Casein",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Ana süt proteinidir."
+  },
+  {
+    "id": "serum_proteins",
+    "name_tr": "Serum proteinleri",
+    "name_en": "Serum proteins",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Peynir altı suyu proteinlerini kapsayan alerjen süt proteini grubu."
+  },
+  {
+    "id": "cholesterol",
+    "name_tr": "Kolesterol",
+    "name_en": "Cholesterol",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Hayvansal yağlarda bulunan lipid türü."
+  },
+  {
+    "id": "trans_fat",
+    "name_tr": "Trans yağ",
+    "name_en": "Trans Fats",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Kardiyovasküler sağlık için son derece zararlı yağ türü."
+  },
+  {
+    "id": "omega_3",
+    "name_tr": "Omega 3 yağ asitleri",
+    "name_en": "Omega 3",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Kalp ve beyin sağlığını destekleyen faydalı yağ asidi."
+  },
+  {
+    "id": "omega_6",
+    "name_tr": "Omega 6 yağ asitleri",
+    "name_en": "Omega 6",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Fazla tüketimi inflamasyonu tetikleyebilir."
+  },
+  {
+    "id": "taurine",
+    "name_tr": "Taurin",
+    "name_en": "Taurine",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Enerji içeceklerinde sık kullanılan amino asit türevi."
+  },
+  {
+    "id": "cassia_gum",
+    "name_tr": "Kassia sakızı",
+    "name_en": "Cassia Gum",
+    "e_code": "E427",
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Kıvam artırıcı jelleştirici ajan."
+  },
+  {
+    "id": "soluble_fiber",
+    "name_tr": "Çözünür lif",
+    "name_en": "Soluble Fiber",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Bağırsak dostu diyet lifi."
+  },
+  {
+    "id": "insoluble_fiber",
+    "name_tr": "Çözünmeyen lif",
+    "name_en": "Insoluble Fiber",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Sindirim sistemini düzenleyen lif türü."
+  },
+  {
+    "id": "packaging_gas",
+    "name_tr": "Ambalajlama gazı",
+    "name_en": "Packaging gas",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdanın dayanıklılık süresini uzatmak amacıyla kullanılan gazlar."
+  },
+  {
+    "id": "antioxidant",
+    "name_tr": "Antioksidan",
+    "name_en": "Antioxidant",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Yağların acılaşmasını ve renk değişimlerini önleyen katkı maddesi grubu."
+  },
+  {
+    "id": "flavor_enhancer",
+    "name_tr": "Aroma arttırıcı",
+    "name_en": "Flavour enhancer",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Gıdanın mevcut tadını veya kokusunu yoğunlaştırmak için kullanılır."
+  },
+  {
+    "id": "acid",
+    "name_tr": "Asit",
+    "name_en": "Acid",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdada asitliği artıran veya ekşi tat oluşturan maddeler."
+  },
+  {
+    "id": "emulsifier",
+    "name_tr": "Emülgatör",
+    "name_en": "Emulsifier",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Yağ ve su gibi fazların karışmasını sağlar."
+  },
+  {
+    "id": "emulsifying_salt",
+    "name_tr": "Emülsifiye edici tuz",
+    "name_en": "Emulsifying salt",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "İşlenmiş peynirlerde proteinleri kararlı tutmak için kullanılır."
+  },
+  {
+    "id": "bulking_agent",
+    "name_tr": "Hacim artırıcı",
+    "name_en": "Bulking agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Enerjiyi artırmadan ürünün hacmini artırır."
+  },
+  {
+    "id": "propellant",
+    "name_tr": "İtici gaz",
+    "name_en": "Propellant gas",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdanın bulunduğu kaptan dışarı çıkmasını sağlayan gazlar."
+  },
+  {
+    "id": "gelling_agent",
+    "name_tr": "Jelleştirici",
+    "name_en": "Gelling agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdaya jel yapısı kazandırır."
+  },
+  {
+    "id": "raising_agent",
+    "name_tr": "Kabartıcı",
+    "name_en": "Raising agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Hamurun hacmini artıran bileşenler."
+  },
+  {
+    "id": "thickener",
+    "name_tr": "Kıvam arttırıcı",
+    "name_en": "Thickener",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdanın viskozitesini artırır."
+  },
+  {
+    "id": "contrast_enhancer",
+    "name_tr": "Kontrast artırıcı",
+    "name_en": "Contrast enhancer",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Meyve ve sebzelerde görünürlüğü artırmak için kullanılır."
+  },
+  {
+    "id": "preservative",
+    "name_tr": "Koruyucu",
+    "name_en": "Preservative",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Mikroorganizmaların neden olduğu bozulmaları önler."
+  },
+  {
+    "id": "foaming_agent",
+    "name_tr": "Köpük oluşturucu",
+    "name_en": "Foaming agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Köpük oluşmasını ve korunmasını sağlar."
+  },
+  {
+    "id": "anti_foaming_agent",
+    "name_tr": "Köpük önleyici",
+    "name_en": "Anti-foaming agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Köpük oluşumunu azaltır veya engeller."
+  },
+  {
+    "id": "glazing_agent",
+    "name_tr": "Parlatıcı",
+    "name_en": "Glazing agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdaya parlak görünüm kazandırır."
+  },
+  {
+    "id": "stabilizer",
+    "name_tr": "Stabilizör",
+    "name_en": "Stabilizer",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Ürünün fiziksel özelliklerini korumasını sağlar."
+  },
+  {
+    "id": "anti_caking_agent",
+    "name_tr": "Topaklanma önleyici",
+    "name_en": "Anti-caking agent",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Toz ürünlerin topaklanmasını önler."
+  },
+  {
+    "id": "humectant",
+    "name_tr": "Nem tutucu",
+    "name_en": "Humectant",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Ürünün nemini korumasını sağlar."
+  },
+  {
+    "id": "e100",
+    "name_tr": "Kurkumin",
+    "name_en": "Curcumin",
+    "e_code": "E100",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e101",
+    "name_tr": "Riboflavin",
+    "name_en": "Riboflavin",
+    "e_code": "E101",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e104",
+    "name_tr": "Kinolin Sarısı",
+    "name_en": "Quinoline Yellow",
+    "e_code": "E104",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e120",
+    "name_tr": "Karmin",
+    "name_en": "Carmine",
+    "e_code": "E120",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e132",
+    "name_tr": "İndigotin",
+    "name_en": "Indigotine",
+    "e_code": "E132",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e133",
+    "name_tr": "Parlak Mavi FCF",
+    "name_en": "Brilliant Blue FCF",
+    "e_code": "E133",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e140",
+    "name_tr": "Klorofiller",
+    "name_en": "Chlorophylls",
+    "e_code": "E140",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e150a",
+    "name_tr": "Karamel I",
+    "name_en": "Plain Caramel",
+    "e_code": "E150a",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e150d",
+    "name_tr": "Karamel IV",
+    "name_en": "Sulphite Ammonia Caramel",
+    "e_code": "E150d",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e160a",
+    "name_tr": "Karotenler",
+    "name_en": "Carotenes",
+    "e_code": "E160a",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e160c",
+    "name_tr": "Paprika Ekstraktı",
+    "name_en": "Paprika Extract",
+    "e_code": "E160c",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e162",
+    "name_tr": "Betanin",
+    "name_en": "Betanin",
+    "e_code": "E162",
+    "type": "additive",
+    "categories": ["renklendirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e170",
+    "name_tr": "Kalsiyum Karbonat",
+    "name_en": "Calcium Carbonate",
+    "e_code": "E170",
+    "type": "additive",
+    "categories": ["asitlik_duzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e200",
+    "name_tr": "Sorbik Asit",
+    "name_en": "Sorbic Acid",
+    "e_code": "E200",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e202",
+    "name_tr": "Potasyum Sorbat",
+    "name_en": "Potassium Sorbate",
+    "e_code": "E202",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e210",
+    "name_tr": "Benzoik Asit",
+    "name_en": "Benzoic Acid",
+    "e_code": "E210",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e214",
+    "name_tr": "Etil Paraben",
+    "name_en": "Ethyl Paraben",
+    "e_code": "E214",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e218",
+    "name_tr": "Metil Paraben",
+    "name_en": "Methyl Paraben",
+    "e_code": "E218",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e234",
+    "name_tr": "Nisin",
+    "name_en": "Nisin",
+    "e_code": "E234",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e235",
+    "name_tr": "Nizınin yok / türe göre değişir",
+    "name_en": "Natamycin (varsayım)",
+    "e_code": "E235",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e260",
+    "name_tr": "Asetik Asit",
+    "name_en": "Acetic Acid",
+    "e_code": "E260",
+    "type": "additive",
+    "categories": ["asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e270",
+    "name_tr": "Laktik Asit",
+    "name_en": "Lactic Acid",
+    "e_code": "E270",
+    "type": "additive",
+    "categories": ["asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e280",
+    "name_tr": "Propiyonik Asit",
+    "name_en": "Propionic Acid",
+    "e_code": "E280",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e282",
+    "name_tr": "Kalsiyum Propiyonat",
+    "name_en": "Calcium Propionate",
+    "e_code": "E282",
+    "type": "additive",
+    "categories": ["koruyucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e296",
+    "name_tr": "Malik Asit",
+    "name_en": "Malic Acid",
+    "e_code": "E296",
+    "type": "additive",
+    "categories": ["asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e300",
+    "name_tr": "Askorbik Asit",
+    "name_en": "Ascorbic Acid",
+    "e_code": "E300",
+    "type": "additive",
+    "categories": ["antioksidan"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e304",
+    "name_tr": "Askorbik Asit Esterleri",
+    "name_en": "Ascorbyl Palmitate",
+    "e_code": "E304",
+    "type": "additive",
+    "categories": ["antioksidan"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e306",
+    "name_tr": "Tokoferoller",
+    "name_en": "Tocopherols (Vitamin E)",
+    "e_code": "E306",
+    "type": "additive",
+    "categories": ["antioksidan"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e320",
+    "name_tr": "BHA",
+    "name_en": "Butylated Hydroxyanisole",
+    "e_code": "E320",
+    "type": "additive",
+    "categories": ["antioksidan"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e321",
+    "name_tr": "BHT",
+    "name_en": "Butylated Hydroxytoluene",
+    "e_code": "E321",
+    "type": "additive",
+    "categories": ["antioksidan"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e330",
+    "name_tr": "Sitrik Asit",
+    "name_en": "Citric Acid",
+    "e_code": "E330",
+    "type": "additive",
+    "categories": ["asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e400",
+    "name_tr": "Aljinik Asit",
+    "name_en": "Alginate",
+    "e_code": "E400",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e401",
+    "name_tr": "Sodyum Aljinat",
+    "name_en": "Sodium Alginate",
+    "e_code": "E401",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e406",
+    "name_tr": "Agar",
+    "name_en": "Agar",
+    "e_code": "E406",
+    "type": "additive",
+    "categories": ["jelatin alternatif", "kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e410",
+    "name_tr": "Keçiboynuzu Gamı",
+    "name_en": "Locust Bean Gum",
+    "e_code": "E410",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e412",
+    "name_tr": "Guar Gamı",
+    "name_en": "Guar Gum",
+    "e_code": "E412",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e414",
+    "name_tr": "Arap Zamkı",
+    "name_en": "Acacia Gum",
+    "e_code": "E414",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e415",
+    "name_tr": "Ksantan Gamı",
+    "name_en": "Xanthan Gum",
+    "e_code": "E415",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e416",
+    "name_tr": "Karaya Gamı",
+    "name_en": "Karaya Gum",
+    "e_code": "E416",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e417",
+    "name_tr": "Tara Gamı",
+    "name_en": "Tara Gum",
+    "e_code": "E417",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e418",
+    "name_tr": "Jellan Gamı",
+    "name_en": "Gellan Gum",
+    "e_code": "E418",
+    "type": "additive",
+    "categories": ["kıvam artırıcı", "jel oluşturucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e421",
+    "name_tr": "Mannitol",
+    "name_en": "Mannitol",
+    "e_code": "E421",
+    "type": "additive",
+    "categories": ["tatlandırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e422",
+    "name_tr": "Gliserol",
+    "name_en": "Glycerol",
+    "e_code": "E422",
+    "type": "additive",
+    "categories": ["nem tutucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e433",
+    "name_tr": "Polisorbat 80",
+    "name_en": "Polysorbate 80",
+    "e_code": "E433",
+    "type": "additive",
+    "categories": ["emülgatör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e435",
+    "name_tr": "Polisorbat 60",
+    "name_en": "Polysorbate 60",
+    "e_code": "E435",
+    "type": "additive",
+    "categories": ["emülgatör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e440",
+    "name_tr": "Pektin",
+    "name_en": "Pectin",
+    "e_code": "E440",
+    "type": "additive",
+    "categories": ["kıvam artırıcı", "jel oluşturucu"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e444",
+    "name_tr": "Sükroz Asetat İzobütirat",
+    "name_en": "Sucrose Acetate Isobutyrate",
+    "e_code": "E444",
+    "type": "additive",
+    "categories": ["emülgatör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e450",
+    "name_tr": "Difosfatlar",
+    "name_en": "Diphosphates",
+    "e_code": "E450",
+    "type": "additive",
+    "categories": ["stabilizör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e451",
+    "name_tr": "Trifosfatlar",
+    "name_en": "Triphosphates",
+    "e_code": "E451",
+    "type": "additive",
+    "categories": ["stabilizör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e452",
+    "name_tr": "Polifosfatlar",
+    "name_en": "Polyphosphates",
+    "e_code": "E452",
+    "type": "additive",
+    "categories": ["stabilizör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e461",
+    "name_tr": "Metil Selüloz",
+    "name_en": "Methyl Cellulose",
+    "e_code": "E461",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e466",
+    "name_tr": "Karboksimetil Selüloz",
+    "name_en": "Carboxymethyl Cellulose",
+    "e_code": "E466",
+    "type": "additive",
+    "categories": ["kıvam artırıcı"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e471",
+    "name_tr": "Yağ Asitlerinin Mono ve Digliseritleri",
+    "name_en": "Mono- and Diglycerides of Fatty Acids",
+    "e_code": "E471",
+    "type": "additive",
+    "categories": ["emülgatör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e481",
+    "name_tr": "Sodyum Stearoil Laktilat",
+    "name_en": "Sodium Stearoyl Lactylate",
+    "e_code": "E481",
+    "type": "additive",
+    "categories": ["emülgatör"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e500ii",
+    "name_tr": "Sodyum Bikarbonat",
+    "name_en": "Sodium Bicarbonate",
+    "e_code": "E500ii",
+    "type": "additive",
+    "categories": ["kabartıcı", "asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e501",
+    "name_tr": "Potasyum Karbonat",
+    "name_en": "Potassium Carbonate",
+    "e_code": "E501",
+    "type": "additive",
+    "categories": ["asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e503",
+    "name_tr": "Amonyum Karbonat",
+    "name_en": "Ammonium Carbonate",
+    "e_code": "E503",
+    "type": "additive",
+    "categories": ["kabartıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e509",
+    "name_tr": "Kalsiyum Klorür",
+    "name_en": "Calcium Chloride",
+    "e_code": "E509",
+    "type": "additive",
+    "categories": ["sertleştirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e516",
+    "name_tr": "Kalsiyum Sülfat",
+    "name_en": "Calcium Sulfate",
+    "e_code": "E516",
+    "type": "additive",
+    "categories": ["sertleştirici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e536",
+    "name_tr": "Sodyum Ferro Siyanür",
+    "name_en": "Sodium Ferrocyanide",
+    "e_code": "E536",
+    "type": "additive",
+    "categories": ["topaklanma önleyici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e551",
+    "name_tr": "Silisyum Dioksit",
+    "name_en": "Silicon Dioxide",
+    "e_code": "E551",
+    "type": "additive",
+    "categories": ["topaklanma önleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e575",
+    "name_tr": "Glucono Delta Lakton",
+    "name_en": "Glucono Delta Lactone",
+    "e_code": "E575",
+    "type": "additive",
+    "categories": ["asitlik düzenleyici"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e627",
+    "name_tr": "Disodyum Guanilat",
+    "name_en": "Disodium Guanylate",
+    "e_code": "E627",
+    "type": "additive",
+    "categories": ["lezzet artırıcı"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e631",
+    "name_tr": "Disodyum İnosinat",
+    "name_en": "Disodium Inosinate",
+    "e_code": "E631",
+    "type": "additive",
+    "categories": ["lezzet artırıcı"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e901",
+    "name_tr": "Balmumu",
+    "name_en": "Beeswax",
+    "e_code": "E901",
+    "type": "additive",
+    "categories": ["parlatıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e903",
+    "name_tr": "Karnauba Mumu",
+    "name_en": "Carnauba Wax",
+    "e_code": "E903",
+    "type": "additive",
+    "categories": ["parlatıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e904",
+    "name_tr": "Şellak",
+    "name_en": "Shellac",
+    "e_code": "E904",
+    "type": "additive",
+    "categories": ["parlatıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e920",
+    "name_tr": "L-Sistein",
+    "name_en": "L-Cysteine",
+    "e_code": "E920",
+    "type": "additive",
+    "categories": ["hamur iyileştirici"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e954",
+    "name_tr": "Sakkarin",
+    "name_en": "Saccharin",
+    "e_code": "E954",
+    "type": "additive",
+    "categories": ["tatlandırıcı"],
+    "risk_level": "orta"
+  },
+  {
+    "id": "e966",
+    "name_tr": "Laktitol",
+    "name_en": "Lactitol",
+    "e_code": "E966",
+    "type": "additive",
+    "categories": ["tatlandırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e967",
+    "name_tr": "Ksilitol",
+    "name_en": "Xylitol",
+    "e_code": "E967",
+    "type": "additive",
+    "categories": ["tatlandırıcı"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "e1103",
+    "name_tr": "Invertaz",
+    "name_en": "Invertase",
+    "e_code": "E1103",
+    "type": "additive",
+    "categories": ["enzim"],
+    "risk_level": "dusuk"
+  },
+  {
+    "id": "hydrogenated_palm_oil",
+    "name_tr": "Tam hidrojenize palm yağı",
+    "name_en": "Fully hydrogenated palm oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Trans yağ asitleri içerebilir. Kardiyovasküler sağlık için risklidir."
+  },
+  {
+    "id": "milk_cream",
+    "name_tr": "Süt kreması",
+    "name_en": "Milk cream",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Laktoz ve süt proteini içerir."
+  },
+  {
+    "id": "e472b_emulsifier",
+    "name_tr": "Yağ asitlerinin mono ve digliseridlerinin laktik asit esterleri",
+    "name_en": "Lactic acid esters of mono- and diglycerides of fatty acids",
+    "e_code": "E472b",
+    "type": "additive",
+    "categories": ["katki", "emulgator"],
+    "risk_level": "dusuk",
+    "note_tr": "Kıvam artırıcı ve emülgatör olarak kullanılır."
+  },
+  {
+    "id": "e472c_emulsifier",
+    "name_tr": "Yağ asitlerinin mono ve digliseridlerinin sitrik asit esterleri",
+    "name_en": "Citric acid esters of mono- and diglycerides of fatty acids",
+    "e_code": "E472c",
+    "type": "additive",
+    "categories": ["katki", "emulgator"],
+    "risk_level": "dusuk",
+    "note_tr": "Emülgatör ve antioksidan koruyucu görevi görür."
+  },
+  {
+    "id": "microcrystalline_cellulose",
+    "name_tr": "Mikrokristal selüloz",
+    "name_en": "Microcrystalline cellulose",
+    "e_code": "E460i",
+    "type": "additive",
+    "categories": ["katki", "stabilizator"],
+    "risk_level": "dusuk",
+    "note_tr": "Topaklanmayı önleyici ve hacim artırıcı dolgu maddesi."
+  },
+  {
+    "id": "beta_carotene",
+    "name_tr": "Beta karoten",
+    "name_en": "Beta-carotene",
+    "e_code": "E160a",
+    "type": "additive",
+    "categories": ["katki", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal kökenli sarı/turuncu renklendirici ve A vitamini öncüsü."
+  },
+  {
+    "id": "cottonseed_oil",
+    "name_tr": "Pamuk yağı",
+    "name_en": "Cottonseed oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "İşlenmiş bitkisel yağ. Zirai ilaç kalıntısı barındırma riski yüksek tohum yağıdır."
+  },
+  {
+    "id": "apple_concentrate",
+    "name_tr": "Elma suyu konsantresi",
+    "name_en": "Apple juice concentrate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Doğal tatlandırıcı olarak kullanılır, fruktoz oranı çok yüksektir."
+  },
+  {
+    "id": "modified_starch",
+    "name_tr": "Modifiye nişasta",
+    "name_en": "Modified starch",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "kivam_arttirici"],
+    "risk_level": "orta",
+    "note_tr": "Fiziksel veya kimyasal işleme maruz kalmış nişastadır. Glisemik indeksi yüksektir."
+  },
+  {
+    "id": "raspberry",
+    "name_tr": "Frambuaz",
+    "name_en": "Raspberry",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve. Temiz içerik."
+  },
+  {
+    "id": "pregelatinized_rice_starch",
+    "name_tr": "Prejelatinize pirinç nişastası",
+    "name_en": "Pregelatinized rice starch",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "kivam_arttirici"],
+    "risk_level": "orta",
+    "note_tr": "Soğuk suda çözünebilen anında kıvam artırıcı."
+  },
+  {
+    "id": "invert_sugar_syrup",
+    "name_tr": "İnvert şeker şurubu",
+    "name_en": "Invert sugar syrup",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Glikoz ve fruktoz karışımı sıvı tatlandırıcı. Kan şekerini çok hızlı yükseltir."
+  },
+  {
+    "id": "sodium_metabisulphite",
+    "name_tr": "Sodyum metabisülfit",
+    "name_en": "Sodium metabisulphite",
+    "e_code": "E223",
+    "type": "additive",
+    "categories": ["katki", "alerjen", "koruyucu"],
+    "risk_level": "dikkat",
+    "note_tr": "Un işlem maddesi ve koruyucudur. Astım hastalarında reaksiyon tetikleyebilecek sülfit içerir."
+  },
+  {
+    "id": "pomegranate_juice_concentrate",
+    "name_tr": "Nar suyu konsantresi",
+    "name_en": "Pomegranate juice concentrate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Doğal tatlandırıcı. Yüksek meyve şekeri içerir."
+  },
+  {
+    "id": "natural_flavoring",
+    "name_tr": "Doğal aroma vericiler",
+    "name_en": "Natural flavorings",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal kaynaklardan elde edilen lezzet bileşenleri."
+  },
+  {
+    "id": "black_carrot_color",
+    "name_tr": "Siyah havuç ekstraktı",
+    "name_en": "Black carrot extract",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal kırmızı/mor renklendirici."
+  },
+  {
+    "id": "blackcurrant_concentrate",
+    "name_tr": "Frenk üzümü konsantresi",
+    "name_en": "Blackcurrant concentrate",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal mor renklendirici ve tatlandırıcı."
+  },
+  {
+    "id": "shea_butter",
+    "name_tr": "Shea yağı",
+    "name_en": "Shea butter",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Çikolata ve gofretlerde kakao yağı ikamesi olarak kullanılan bitkisel yağ."
+  },
+  {
+    "id": "honey",
+    "name_tr": "Bal",
+    "name_en": "Honey",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "bebek_riski"],
+    "risk_level": "dikkat",
+    "note_tr": "Doğal tatlandırıcıdır ancak botulizm riski nedeniyle 1 yaşından küçük bebeklere kesinlikle verilmemelidir."
+  },
+  {
+    "id": "vitamin_a",
+    "name_tr": "A Vitamini",
+    "name_en": "Vitamin A",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Gıdalara dışarıdan eklenen takviye."
+  },
+  {
+    "id": "vitamin_e",
+    "name_tr": "E Vitamini",
+    "name_en": "Vitamin E",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Takviye edici veya antioksidan özellikli bileşen (Tokoferol)."
+  },
+  {
+    "id": "vitamin_d",
+    "name_tr": "D Vitamini",
+    "name_en": "Vitamin D",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Takviye edici vitamin."
+  },
+  {
+    "id": "dextrose",
+    "name_tr": "Dekstroz",
+    "name_en": "Dextrose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Mısırdan elde edilen ve glisemik indeksi en yüksek olan basit şekerlerden biridir."
+  },
+  {
+    "id": "sorbitan_tristearate",
+    "name_tr": "Sorbitan tristearat",
+    "name_en": "Sorbitan tristearate",
+    "e_code": "E492",
+    "type": "additive",
+    "categories": ["katki", "emulgator"],
+    "risk_level": "orta",
+    "note_tr": "Çikolatalarda matlaşmayı ve yağın çiçeklenmesini önleyen emülgatör."
+  },
+  {
+    "id": "polyglycerol_esters",
+    "name_tr": "Yağ asitlerinin poligliserol esterleri",
+    "name_en": "Polyglycerol esters of fatty acids",
+    "e_code": "E475",
+    "type": "additive",
+    "categories": ["katki", "emulgator"],
+    "risk_level": "orta",
+    "note_tr": "Kek ve tatlılarda hacim artırıcı sentetik emülgatör."
+  },
+  {
+    "id": "milk_protein",
+    "name_tr": "Süt proteini",
+    "name_en": "Milk protein",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Kazein veya whey türevi alerjen proteindir."
+  },
+  {
+    "id": "chicken_breast",
+    "name_tr": "Piliç göğüs eti",
+    "name_en": "Chicken breast",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Hayvansal protein kaynağı."
+  },
+  {
+    "id": "corn_flakes",
+    "name_tr": "Mısır gevreği",
+    "name_en": "Corn flakes",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "İşlenmiş karbonhidrat."
+  },
+  {
+    "id": "potato_flakes",
+    "name_tr": "Patates gevreği",
+    "name_en": "Potato flakes",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Kurutulmuş patates püresi tozu."
+  },
+  {
+    "id": "dried_basil",
+    "name_tr": "Kuru fesleğen",
+    "name_en": "Dried basil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "celery_powder",
+    "name_tr": "Kereviz tozu",
+    "name_en": "Celery powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Gizli kereviz alerjeni."
+  },
+  {
+    "id": "red_chili_flakes",
+    "name_tr": "Acı kırmızı pul biber",
+    "name_en": "Red chili flakes",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "sodium_acetate",
+    "name_tr": "Sodyum asetat",
+    "name_en": "Sodium acetate",
+    "e_code": "E262",
+    "type": "additive",
+    "categories": ["katki", "koruyucu"],
+    "risk_level": "dusuk",
+    "note_tr": "Tuz ve asitlik düzenleyici koruyucu."
+  },
+  {
+    "id": "rice_semolina",
+    "name_tr": "Pirinç irmiği",
+    "name_en": "Rice semolina",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Glütensiz karbonhidrat kaynağı."
+  },
+  {
+    "id": "curry",
+    "name_tr": "Köri",
+    "name_en": "Curry",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Baharat karışımıdır. Çapraz kontaminasyon veya hardal içeriği nedeniyle alerjik reaksiyon yapabilir."
+  },
+  {
+    "id": "allspice",
+    "name_tr": "Yenibahar",
+    "name_en": "Allspice",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "turmeric",
+    "name_tr": "Zerdeçal",
+    "name_en": "Turmeric",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Anti-inflamatuar doğal baharat."
+  },
+  {
+    "id": "black_pepper",
+    "name_tr": "Karabiber",
+    "name_en": "Black pepper",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "flower_honey",
+    "name_tr": "Süzme çiçek balı",
+    "name_en": "Strained flower honey",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "bebek_riski"],
+    "risk_level": "dikkat",
+    "note_tr": "Botulizm riski nedeniyle 1 yaş altına verilmemelidir."
+  },
+  {
+    "id": "tomato",
+    "name_tr": "Domates",
+    "name_en": "Tomato",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal sebze."
+  },
+  {
+    "id": "onion",
+    "name_tr": "Soğan",
+    "name_en": "Onion",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal sebze."
+  },
+  {
+    "id": "yogurt_culture",
+    "name_tr": "Yoğurt kültürü",
+    "name_en": "Yogurt culture",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Canlı fermente probiyotik bakteri kültürleri."
+  },
+  {
+    "id": "cane_sugar",
+    "name_tr": "Şeker kamışı şekeri",
+    "name_en": "Cane sugar",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "İlave şeker sınıfındadır. Sınırlandırılmalıdır."
+  },
+  {
+    "id": "instant_coffee",
+    "name_tr": "Çözünebilir kahve",
+    "name_en": "Instant coffee",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Kafein içerir."
+  },
+  {
+    "id": "tripotassium_citrate",
+    "name_tr": "Tripotasyum sitrat",
+    "name_en": "Tripotassium citrate",
+    "e_code": "E332",
+    "type": "additive",
+    "categories": ["katki", "asitlik_duzenleyici"],
+    "risk_level": "dusuk",
+    "note_tr": "Asitliği düzenleyen ve antioksidanı destekleyen tuz."
+  },
+  {
+    "id": "bovine_gelatin",
+    "name_tr": "Sığır jelatini",
+    "name_en": "Bovine gelatin",
+    "e_code": null,
+    "type": "food",
+    "categories": ["katki", "kivam_arttirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Hayvansal kaynaklı jelleştirici. Vegan diyete uygun değildir."
+  },
+  {
+    "id": "cola_flavoring",
+    "name_tr": "Kola aroma vericisi",
+    "name_en": "Cola flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "orta",
+    "note_tr": "Sentetik veya doğal ekstrakt karışımı."
+  },
+  {
+    "id": "durum_wheat",
+    "name_tr": "Durum buğdayı",
+    "name_en": "Durum wheat",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "iodized_salt",
+    "name_tr": "İyotlu tuz",
+    "name_en": "Iodized salt",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Tansiyon riski oluşturabilir. İyot takviyelidir."
+  },
+  {
+    "id": "mushroom_extract",
+    "name_tr": "Mantar özütü",
+    "name_en": "Mushroom extract",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma ve umami lezzet artırıcı."
+  },
+  {
+    "id": "butter_whey_powder",
+    "name_tr": "Tereyağ altı suyu tozu",
+    "name_en": "Butter whey powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini ve laktoz içerir."
+  },
+  {
+    "id": "yeast_extract",
+    "name_tr": "Maya ekstraktı",
+    "name_en": "Yeast extract",
+    "e_code": null,
+    "type": "food",
+    "categories": ["katki", "lezzet_artirici"],
+    "risk_level": "orta",
+    "note_tr": "Doğal MSG (Glutamat) kaynağıdır. Lezzet artırıcı olarak kullanılır."
+  },
+  {
+    "id": "chives",
+    "name_tr": "Frenk soğanı",
+    "name_en": "Chives",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal yeşillik."
+  },
+  {
+    "id": "cream_powder",
+    "name_tr": "Krema tozu",
+    "name_en": "Cream powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Yüksek doymuş yağ içerir."
+  },
+  {
+    "id": "cheese_powder",
+    "name_tr": "Peynir tozu",
+    "name_en": "Cheese powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür."
+  },
+  {
+    "id": "vinegar",
+    "name_tr": "Sirke",
+    "name_en": "Vinegar",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal asitlik düzenleyici ve koruyucu."
+  },
+  {
+    "id": "calcium_disodium_edta",
+    "name_tr": "Kalsiyum disodyum EDTA",
+    "name_en": "Calcium disodium EDTA",
+    "e_code": "E385",
+    "type": "additive",
+    "categories": ["katki", "antioksidan"],
+    "risk_level": "orta",
+    "note_tr": "Ağır metalleri bağlayan koruyucu. Fazla alımı mineral eksikliğine yol açabilir."
+  },
+  {
+    "id": "thyme",
+    "name_tr": "Kekik",
+    "name_en": "Thyme",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "olive",
+    "name_tr": "Zeytin",
+    "name_en": "Olive",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve ve sağlıklı yağ kaynağı."
+  },
+  {
+    "id": "demineralized_whey_powder",
+    "name_tr": "Demineralize peyniraltı suyu tozu",
+    "name_en": "Demineralized whey powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Tuz oranı düşürülmüş süt ürünü tozu."
+  },
+  {
+    "id": "chewing_gum_base",
+    "name_tr": "Sakız mayası",
+    "name_en": "Chewing gum base",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki"],
+    "risk_level": "orta",
+    "note_tr": "Sentetik veya doğal kauçuk reçine karışımı."
+  },
+  {
+    "id": "tartaric_acid",
+    "name_tr": "Tartarik asit",
+    "name_en": "Tartaric acid",
+    "e_code": "E334",
+    "type": "additive",
+    "categories": ["katki", "asitlik_duzenleyici"],
+    "risk_level": "dusuk",
+    "note_tr": "Üzümlerden elde edilen doğal bir asittir."
+  },
+  {
+    "id": "lactose",
+    "name_tr": "Süt şekeri",
+    "name_en": "Lactose",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Laktoz intoleransı olanlar için risklidir."
+  },
+  {
+    "id": "roasted_flour",
+    "name_tr": "Kavrulmuş un",
+    "name_en": "Roasted flour",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "paprika_extract",
+    "name_tr": "Kırmızı biber ekstraktı",
+    "name_en": "Paprika extract",
+    "e_code": "E160c",
+    "type": "additive",
+    "categories": ["katki", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal kırmızı renklendirici ve aroma."
+  },
+  {
+    "id": "dried_chicken_meat",
+    "name_tr": "Kurutulmuş tavuk eti",
+    "name_en": "Dried chicken meat",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Hayvansal protein içerir."
+  },
+  {
+    "id": "white_pepper",
+    "name_tr": "Beyaz biber",
+    "name_en": "White pepper",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "cumin",
+    "name_tr": "Kimyon",
+    "name_en": "Cumin",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "pasteurized_milk",
+    "name_tr": "Pastörize süt",
+    "name_en": "Pasteurized milk",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünü alerjeni."
+  },
+  {
+    "id": "vitamin_b2",
+    "name_tr": "B2 Vitamini",
+    "name_en": "Vitamin B2",
+    "e_code": "E101",
+    "type": "food",
+    "categories": ["temel", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Riboflavin. Hem vitamin takviyesi hem de sarı renklendirici olarak kullanılır."
+  },
+  {
+    "id": "vitamin_b12",
+    "name_tr": "B12 Vitamini",
+    "name_en": "Vitamin B12",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Takviye edici."
+  },
+  {
+    "id": "cow_milk",
+    "name_tr": "Yağlı inek sütü",
+    "name_en": "Whole cow milk",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini ve laktoz alerjeni içerir."
+  },
+  {
+    "id": "vitamin_b1",
+    "name_tr": "B1 Vitamini",
+    "name_en": "Vitamin B1",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Tiamin. Takviye edici."
+  },
+  {
+    "id": "vitamin_b3",
+    "name_tr": "B3 Vitamini",
+    "name_en": "Vitamin B3",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Niasin. Takviye edici."
+  },
+  {
+    "id": "vitamin_b6",
+    "name_tr": "B6 Vitamini",
+    "name_en": "Vitamin B6",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Takviye edici."
+  },
+  {
+    "id": "l_carnitine",
+    "name_tr": "L-karnitin",
+    "name_en": "L-carnitine",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "Yağ metabolizmasını destekleyen amino asit türevi."
+  },
+  {
+    "id": "lactase_enzyme",
+    "name_tr": "Laktaz enzimi",
+    "name_en": "Lactase enzyme",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "enzim"],
+    "risk_level": "dusuk",
+    "note_tr": "Sütteki laktozu parçalayarak sindirimi kolaylaştıran enzim."
+  },
+  {
+    "id": "blackberry",
+    "name_tr": "Böğürtlen",
+    "name_en": "Blackberry",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve."
+  },
+  {
+    "id": "tuna_fish",
+    "name_tr": "Ton balığı",
+    "name_en": "Tuna fish",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Balık proteini alerjeni içerir."
+  },
+  {
+    "id": "pea",
+    "name_tr": "Bezelye",
+    "name_en": "Pea",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Baklagil sebzesi."
+  },
+  {
+    "id": "corn",
+    "name_tr": "Mısır",
+    "name_en": "Corn",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Tahıl ve karbonhidrat kaynağı."
+  },
+  {
+    "id": "hazelnut_paste",
+    "name_tr": "Fındık püresi",
+    "name_en": "Hazelnut paste",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "yuksek",
+    "note_tr": "Sert kabuklu yemiş alerjenidir."
+  },
+  {
+    "id": "ammonium_phosphatides",
+    "name_tr": "Amonyum fosfatitler",
+    "name_en": "Ammonium phosphatides",
+    "e_code": "E442",
+    "type": "additive",
+    "categories": ["katki", "emulgator"],
+    "risk_level": "orta",
+    "note_tr": "Çikolatalarda viskoziteyi azaltmak için soya lesitinine alternatif olarak kullanılır."
+  },
+  {
+    "id": "milk_chocolate",
+    "name_tr": "Sütlü Çikolata",
+    "name_en": "Milk chocolate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "yuksek_risk"],
+    "risk_level": "dikkat",
+    "note_tr": "Şeker, kakao yağı ve alerjen süt tozu içerir."
+  },
+  {
+    "id": "potato_protein",
+    "name_tr": "Patates proteini",
+    "name_en": "Potato protein",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Bitkisel protein."
+  },
+  {
+    "id": "acetylated_distarch_adipate",
+    "name_tr": "Asetillendirilmiş di-nişasta adipat",
+    "name_en": "Acetylated di-starch adipate",
+    "e_code": "E1422",
+    "type": "additive",
+    "categories": ["katki", "kivam_arttirici"],
+    "risk_level": "orta",
+    "note_tr": "Isıya ve aside dayanıklı modifiye nişastadır."
+  },
+  {
+    "id": "clarified_butter",
+    "name_tr": "Sade Yağ",
+    "name_en": "Clarified butter",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünüdür. Yüksek oranda hayvansal yağ içerir."
+  },
+  {
+    "id": "beetroot_red",
+    "name_tr": "Pancar Kökü Kırmızısı",
+    "name_en": "Beetroot Red",
+    "e_code": "E162",
+    "type": "additive",
+    "categories": ["katki", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal gıda boyası."
+  },
+  {
+    "id": "raspberry_powder",
+    "name_tr": "Frambuaz Tozu",
+    "name_en": "Raspberry powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Kurutulmuş meyve tozu."
+  },
+  {
+    "id": "vanillin",
+    "name_tr": "Vanilin",
+    "name_en": "Vanillin",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "orta",
+    "note_tr": "Vanilya aromasını taklit eden sentetik bir bileşendir."
+  },
+  {
+    "id": "yogurt",
+    "name_tr": "Yoğurt",
+    "name_en": "Yogurt",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini ve laktoz içerir."
+  },
+  {
+    "id": "fresh_yeast",
+    "name_tr": "Yaş hamur mayası",
+    "name_en": "Fresh baker's yeast",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Hamur kabartıcı doğal canlı maya."
+  },
+  {
+    "id": "vegetable_margarine",
+    "name_tr": "Bitkisel margarin",
+    "name_en": "Vegetable margarine",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Aşırı işlenmiş bitkisel yağların karışımıdır. Trans yağ içerebilir."
+  },
+  {
+    "id": "e472e_emulsifier",
+    "name_tr": "Yağ asitlerinin mono ve digliseritlerinin diasetil tartarik asit esterleri",
+    "name_en": "DATEM",
+    "e_code": "E472e",
+    "type": "additive",
+    "categories": ["katki", "emulgator"],
+    "risk_level": "orta",
+    "note_tr": "Unlu mamullerde hamur hacmini artıran sentetik emülgatör."
+  },
+  {
+    "id": "fungal_alpha_amylase",
+    "name_tr": "Fungal alfa amilaz",
+    "name_en": "Fungal alpha-amylase",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "enzim"],
+    "risk_level": "dusuk",
+    "note_tr": "Mantar kaynaklı nişasta parçalayıcı enzim."
+  },
+  {
+    "id": "hemicellulase_lipase",
+    "name_tr": "Hemiselülaz, lipaz",
+    "name_en": "Hemicellulase, lipase",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "enzim"],
+    "risk_level": "dusuk",
+    "note_tr": "Unlu mamullerde raf ömrünü ve hacmi artıran enzim karışımı."
+  },
+  {
+    "id": "permeate",
+    "name_tr": "Permeat",
+    "name_en": "Permeate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "temel"],
+    "risk_level": "dikkat",
+    "note_tr": "Peyniraltı suyu üretimi yan ürünüdür. Yüksek oranda laktoz içerir."
+  },
+  {
+    "id": "grana_padano",
+    "name_tr": "Grana Padano Peyniri",
+    "name_en": "Grana Padano Cheese",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt alerjeni ve lizozim (yumurta alerjeni) içerebilen sert peynir."
+  },
+  {
+    "id": "lysozyme",
+    "name_tr": "Lizozim",
+    "name_en": "Lysozyme",
+    "e_code": "E1105",
+    "type": "additive",
+    "categories": ["katki", "alerjen", "koruyucu"],
+    "risk_level": "dikkat",
+    "note_tr": "Yumurta akından elde edilen koruyucu enzimdir. Yumurta alerjisi olanlar için risklidir."
+  },
+  {
+    "id": "pecorino_romano",
+    "name_tr": "Pekorino Romano Peyniri",
+    "name_en": "Pecorino Romano Cheese",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Koyun sütünden yapılan alerjen peynir."
+  },
+  {
+    "id": "sheep_milk",
+    "name_tr": "Koyun sütü",
+    "name_en": "Sheep milk",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt proteini içerir."
+  },
+  {
+    "id": "extra_virgin_olive_oil",
+    "name_tr": "Sızma zeytinyağı",
+    "name_en": "Extra virgin olive oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "İşlem görmemiş en sağlıklı yağ grubu."
+  },
+  {
+    "id": "beef",
+    "name_tr": "Dana eti",
+    "name_en": "Beef",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Kırmızı et / protein kaynağı."
+  },
+  {
+    "id": "beef_fat",
+    "name_tr": "Sığır yağı",
+    "name_en": "Beef fat / Tallow",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Doymuş hayvansal yağ."
+  },
+  {
+    "id": "soy_protein",
+    "name_tr": "Soya proteini",
+    "name_en": "Soy protein",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Bitkisel protein kaynağıdır ancak ciddi bir alerjendir."
+  },
+  {
+    "id": "sodium_ascorbate",
+    "name_tr": "Sodyum askorbat",
+    "name_en": "Sodium ascorbate",
+    "e_code": "E301",
+    "type": "additive",
+    "categories": ["katki", "antioksidan"],
+    "risk_level": "dusuk",
+    "note_tr": "C vitamininin sodyum tuzudur. Antioksidan olarak kullanılır."
+  },
+  {
+    "id": "sodium_lactate",
+    "name_tr": "Sodyum laktat",
+    "name_en": "Sodium lactate",
+    "e_code": "E325",
+    "type": "additive",
+    "categories": ["katki", "koruyucu"],
+    "risk_level": "dusuk",
+    "note_tr": "Et ürünlerinde raf ömrünü uzatan asitlik düzenleyici ve koruyucu."
+  },
+  {
+    "id": "smoke_flavoring",
+    "name_tr": "Tütsü aroma vericisi",
+    "name_en": "Smoke flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "orta",
+    "note_tr": "Ağaç dumanının yoğunlaştırılmasıyla elde edilen sıvı sentetik/doğal aroma."
+  },
+  {
+    "id": "roasted_kadayif",
+    "name_tr": "Kavrulmuş tel kadayıf",
+    "name_en": "Roasted shredded phyllo dough",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "temel"],
+    "risk_level": "dikkat",
+    "note_tr": "Glüten içerir."
+  },
+  {
+    "id": "spirulina_concentrate",
+    "name_tr": "Spirulina konsantresi",
+    "name_en": "Spirulina concentrate",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal yeşil/mavi gıda boyası kaynağıdır."
+  },
+  {
+    "id": "feta_cheese",
+    "name_tr": "Feta",
+    "name_en": "Feta cheese",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünü alerjenidir."
+  },
+  {
+    "id": "kashkaval_cheese",
+    "name_tr": "Kaşkaval",
+    "name_en": "Kashkaval cheese",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünü alerjenidir."
+  },
+  {
+    "id": "cheddar_cheese",
+    "name_tr": "Çedar",
+    "name_en": "Cheddar cheese",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünü alerjenidir."
+  },
+  {
+    "id": "pesto_sauce",
+    "name_tr": "Pesto sosu",
+    "name_en": "Pesto sauce",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "dikkat"],
+    "risk_level": "yuksek",
+    "note_tr": "Genellikle fıstık (çam fıstığı), ceviz ve peynir içerdiği için çoklu alerjen riski barındırır."
+  },
+  {
+    "id": "disodium_ribonucleotides",
+    "name_tr": "Disodyum 5'-ribonükleotitler",
+    "name_en": "Disodium 5'-ribonucleotides",
+    "e_code": "E635",
+    "type": "additive",
+    "categories": ["katki", "lezzet_artirici"],
+    "risk_level": "orta",
+    "note_tr": "MSG ile birlikte kullanılan sentetik lezzet artırıcıdır."
+  },
+  {
+    "id": "chicken_fat",
+    "name_tr": "Tavuk yağı",
+    "name_en": "Chicken fat",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "orta",
+    "note_tr": "Hayvansal yağ kaynağı."
+  },
+  {
+    "id": "lemon_juice_powder",
+    "name_tr": "Limon suyu tozu",
+    "name_en": "Lemon juice powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma ve asitlik verici."
+  },
+  {
+    "id": "beef_cheek",
+    "name_tr": "Dana yanak",
+    "name_en": "Beef cheek",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Hayvansal protein."
+  },
+  {
+    "id": "currants",
+    "name_tr": "Kuş üzümü",
+    "name_en": "Currants",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Kurutulmuş meyve."
+  },
+  {
+    "id": "niacinamide",
+    "name_tr": "Niasinamid",
+    "name_en": "Niacinamide",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "B3 vitamini türevi."
+  },
+  {
+    "id": "thiamine_mononitrate",
+    "name_tr": "Tiamin Mononitrat",
+    "name_en": "Thiamine mononitrate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "B1 vitamini türevi."
+  },
+  {
+    "id": "pyridoxine_hydrochloride",
+    "name_tr": "Pridoksin Hidroklorür",
+    "name_en": "Pyridoxine hydrochloride",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "B6 vitamini türevi."
+  },
+  {
+    "id": "folic_acid",
+    "name_tr": "Pteroilmonoglutamik Asit",
+    "name_en": "Pteroylmonoglutamic acid",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "Folik asit (B9 vitamini)."
+  },
+  {
+    "id": "cyanocobalamin",
+    "name_tr": "Siyanokobalamin",
+    "name_en": "Cyanocobalamin",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "B12 vitamini."
+  },
+  {
+    "id": "cholecalciferol",
+    "name_tr": "Kolekalsiferol",
+    "name_en": "Cholecalciferol",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "D3 vitamini."
+  },
+  {
+    "id": "elemental_iron",
+    "name_tr": "Elementel Demir",
+    "name_en": "Elemental iron",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "takviye"],
+    "risk_level": "dusuk",
+    "note_tr": "Demir minerali takviyesi."
+  },
+  {
+    "id": "pineapple_flavoring",
+    "name_tr": "Ananas aroması",
+    "name_en": "Pineapple flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "orta",
+    "note_tr": "Doğal veya sentetik meyve aroması."
+  },
+  {
+    "id": "alpha_tocopherol",
+    "name_tr": "Alfa-tokoferol",
+    "name_en": "Alpha-tocopherol",
+    "e_code": "E307",
+    "type": "additive",
+    "categories": ["katki", "antioksidan"],
+    "risk_level": "dusuk",
+    "note_tr": "E vitamini türevi sentetik veya doğal antioksidan."
+  },
+  {
+    "id": "wood_rosin_esters",
+    "name_tr": "Ağaç reçinesinin gliserol esterleri",
+    "name_en": "Glycerol esters of wood rosins",
+    "e_code": "E445",
+    "type": "additive",
+    "categories": ["katki", "emulgator", "stabilizator"],
+    "risk_level": "orta",
+    "note_tr": "Özellikle gazlı içeceklerde yağ bazlı aromaların çökmesini engelleyen emülgatör."
+  },
+  {
+    "id": "acacia_gum",
+    "name_tr": "Akasya gamı",
+    "name_en": "Acacia gum",
+    "e_code": "E414",
+    "type": "additive",
+    "categories": ["katki", "kivam_arttirici", "emulgator"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal ağaç reçinesidir. Arap zamkı olarak da bilinir."
+  },
+  {
+    "id": "calcium_lactate",
+    "name_tr": "Kalsiyum laktat",
+    "name_en": "Calcium lactate",
+    "e_code": "E327",
+    "type": "additive",
+    "categories": ["katki", "asitlik_duzenleyici", "sertlestirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Kalsiyum takviyesi ve asitlik düzenleyici."
+  },
+  {
+    "id": "tapioca_starch",
+    "name_tr": "Tapyoka nişastası",
+    "name_en": "Tapioca starch",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "kivam_arttirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Manyok kökünden elde edilen glütensiz nişasta."
+  },
+  {
+    "id": "tomato_paste",
+    "name_tr": "Domates salçası",
+    "name_en": "Tomato paste",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Yoğun domates konsantresi."
+  },
+  {
+    "id": "white_pepper_powder",
+    "name_tr": "Beyaz biber tozu",
+    "name_en": "White pepper powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal baharat."
+  },
+  {
+    "id": "fructo_oligosaccharides",
+    "name_tr": "Frukto-oligosakkarit",
+    "name_en": "Fructo-oligosaccharides",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "prebiyotik"],
+    "risk_level": "dusuk",
+    "note_tr": "Bağırsak sağlığını destekleyen prebiyotik lif ve düşük kalorili tatlandırıcı."
+  },
+  {
+    "id": "pistachio_cream_with_kadayif",
+    "name_tr": "Kadayıflı Antep fıstığı kreması",
+    "name_en": "Pistachio cream with kadayif",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Antep fıstığı, glüten (kadayıf) ve muhtemelen süt bileşenleri içerir."
+  },
+  {
+    "id": "broken_rice",
+    "name_tr": "Kırık pirinç",
+    "name_en": "Broken rice",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Karbonhidrat kaynağı."
+  },
+  {
+    "id": "barley_malt_extract",
+    "name_tr": "Arpa maltı ekstraktı",
+    "name_en": "Barley malt extract",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "tatlandirici"],
+    "risk_level": "dikkat",
+    "note_tr": "Tatlandırıcı ve renk verici olarak kullanılır. Glüten barındırabilir."
+  },
+  {
+    "id": "skimmed_pasteurized_milk",
+    "name_tr": "Yağsız pastörize süt",
+    "name_en": "Skimmed pasteurized milk",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt ürünü alerjenidir."
+  },
+  {
+    "id": "tricalcium_phosphate",
+    "name_tr": "Trikalsiyum fosfat",
+    "name_en": "Tricalcium phosphate",
+    "e_code": "E341iii",
+    "type": "additive",
+    "categories": ["katki", "topaklanma_onleyici", "mineral"],
+    "risk_level": "dusuk",
+    "note_tr": "Kalsiyum takviyesi ve topaklanma önleyici madde."
+  },
+  {
+    "id": "tomato_powder",
+    "name_tr": "Domates tozu",
+    "name_en": "Tomato powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma ve renk verici."
+  },
+  {
+    "id": "paprika_oleoresin",
+    "name_tr": "Kırmızı biber oleoresini",
+    "name_en": "Paprika oleoresin",
+    "e_code": "E160c",
+    "type": "additive",
+    "categories": ["katki", "renklendirici", "aroma"],
+    "risk_level": "dusuk",
+    "note_tr": "Kırmızı biberden elde edilen sıvı yağ ekstraktıdır. Doğal renk ve lezzet verir."
+  },
+  {
+    "id": "sodium_diacetate",
+    "name_tr": "Sodyum diasetat",
+    "name_en": "Sodium diacetate",
+    "e_code": "E262ii",
+    "type": "additive",
+    "categories": ["katki", "asitlik_duzenleyici", "koruyucu"],
+    "risk_level": "dusuk",
+    "note_tr": "Sirke aroması veren asitlik düzenleyici ve koruyucu."
+  },
+  {
+    "id": "onion_oil",
+    "name_tr": "Soğan yağı",
+    "name_en": "Onion oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "aroma"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma verici."
+  },
+  {
+    "id": "rosemary_extract",
+    "name_tr": "Biberiye ekstraktı",
+    "name_en": "Rosemary extract",
+    "e_code": "E392",
+    "type": "additive",
+    "categories": ["katki", "antioksidan"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal antioksidandır, yağların acılaşmasını önler."
+  },
+  {
+    "id": "garlic_oil",
+    "name_tr": "Sarımsak yağı",
+    "name_en": "Garlic oil",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "aroma"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal aroma verici."
+  },
+  {
+    "id": "vegan_cheese_flavoring",
+    "name_tr": "Vegan peynir aroma vericisi",
+    "name_en": "Vegan cheese flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "orta",
+    "note_tr": "Hayvansal olmayan kaynaklardan (genellikle maya veya soya türevli) elde edilen peynir aroması. Soya alerjisine dikkat edilmelidir."
+  },
+  {
+    "id": "powdered_sugar",
+    "name_tr": "Pudra şekeri",
+    "name_en": "Powdered sugar",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Öğütülmüş basit şekerdir. Hızlı kan şekeri artışına neden olur."
+  },
+  {
+    "id": "corn_semolina",
+    "name_tr": "Mısır irmiği",
+    "name_en": "Corn semolina",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Karbonhidrat kaynağıdır."
+  },
+  {
+    "id": "strawberry_puree",
+    "name_tr": "Çilek püresi",
+    "name_en": "Strawberry puree",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal meyve."
+  },
+  {
+    "id": "carrot_concentrate",
+    "name_tr": "Havuç konsantresi",
+    "name_en": "Carrot concentrate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal tatlandırıcı ve renk verici."
+  },
+  {
+    "id": "beetroot_juice_concentrate",
+    "name_tr": "Kırmızı pancar suyu konsantresi",
+    "name_en": "Beetroot juice concentrate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal kırmızı renk verici."
+  },
+  {
+    "id": "elderberry_juice_concentrate",
+    "name_tr": "Mürver meyvesi suyu konsantresi",
+    "name_en": "Elderberry juice concentrate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "renklendirici"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal mor/kırmızı renk verici."
+  },
+  {
+    "id": "starter_culture",
+    "name_tr": "Starter kültür",
+    "name_en": "Starter culture",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "probiyotik"],
+    "risk_level": "dusuk",
+    "note_tr": "Fermente ürünlerde (peynir, yoğurt, sucuk) kullanılan yararlı bakteriler."
+  },
+  {
+    "id": "spinach",
+    "name_tr": "Ispanak",
+    "name_en": "Spinach",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal yeşil sebze."
+  },
+  {
+    "id": "gum_arabic_glazing",
+    "name_tr": "Gam arabik - Parlatıcılar",
+    "name_en": "Gum arabic (glazing agent)",
+    "e_code": "E414",
+    "type": "additive",
+    "categories": ["katki", "parlatici"],
+    "risk_level": "dusuk",
+    "note_tr": "Şekerleme ve draje kaplamalarında kullanılan doğal ağaç reçinesi."
+  },
+  {
+    "id": "shellac_glazing",
+    "name_tr": "Şellak - Parlatıcılar",
+    "name_en": "Shellac (glazing agent)",
+    "e_code": "E904",
+    "type": "additive",
+    "categories": ["katki", "parlatici"],
+    "risk_level": "dusuk",
+    "note_tr": "Böcek salgısından elde edilen doğal parlatıcı reçine. Vegan değildir."
+  },
+  {
+    "id": "corn_puff",
+    "name_tr": "Mısır patlağı",
+    "name_en": "Corn puff",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "İşlenmiş mısır atıştırmalığı bazı."
+  },
+  {
+    "id": "noodles",
+    "name_tr": "Erişte",
+    "name_en": "Noodles",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "temel"],
+    "risk_level": "dikkat",
+    "note_tr": "Buğday unu bazlıdır, glüten içerir."
+  },
+  {
+    "id": "fat_powder",
+    "name_tr": "Yağ tozu",
+    "name_en": "Fat powder",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "katki"],
+    "risk_level": "orta",
+    "note_tr": "Genellikle süt şekeri (laktoz) ve süt proteini ile kaplanmış bitkisel yağdır. Süt alerjisi olanlar dikkat etmelidir."
+  },
+  {
+    "id": "vinegar_powder",
+    "name_tr": "Sirke tozu",
+    "name_en": "Vinegar powder",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "dusuk",
+    "note_tr": "Kurutulmuş sirke. Hazır çorba ve cipslerde ekşilik vermek için kullanılır."
+  },
+  {
+    "id": "dark_chocolate",
+    "name_tr": "Bitter çikolata",
+    "name_en": "Dark chocolate",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "uyarici"],
+    "risk_level": "orta",
+    "note_tr": "Yüksek oranda kakao (kafein ve teobromin) içerir. Üretim bandı kaynaklı eser miktarda süt içerebilir."
+  },
+  {
+    "id": "orange_flavor",
+    "name_tr": "Portakal aroma vericisi",
+    "name_en": "Orange flavor",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "dusuk",
+    "note_tr": "Doğal veya sentetik meyve aroması."
+  },
+  {
+    "id": "turkey_meat",
+    "name_tr": "Hindi eti",
+    "name_en": "Turkey meat",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel"],
+    "risk_level": "dusuk",
+    "note_tr": "Hayvansal protein kaynağı."
+  },
+  {
+    "id": "spice_mix",
+    "name_tr": "Baharat karışımı",
+    "name_en": "Spice mix",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "temel"],
+    "risk_level": "dikkat",
+    "note_tr": "Kapalı formüldür. Kereviz veya hardal gibi gizli alerjenler barındırma riski taşır."
+  },
+  {
+    "id": "mussel",
+    "name_tr": "Bütün kabuklu midye",
+    "name_en": "Whole shell mussel",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "yuksek_risk"],
+    "risk_level": "yuksek",
+    "note_tr": "Yumuşakçalar grubundandır. Ciddi deniz ürünü alerjenidir ve ağır metal barındırma riski vardır."
+  },
+  {
+    "id": "white_wine",
+    "name_tr": "Beyaz şarap",
+    "name_en": "White wine",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen", "alkol"],
+    "risk_level": "yuksek",
+    "note_tr": "Alkol içerir. Ayrıca alerjik reaksiyonları tetikleyebilecek sülfit (SO2) barındırır."
+  },
+  {
+    "id": "liquid_cream",
+    "name_tr": "Krema",
+    "name_en": "Cream",
+    "e_code": null,
+    "type": "food",
+    "categories": ["alerjen"],
+    "risk_level": "dikkat",
+    "note_tr": "Süt yağı ürünüdür. Laktoz ve süt proteini içerir."
+  },
+  {
+    "id": "salt_and_vinegar_seasoning",
+    "name_tr": "Tuz ve sirke aromalı çeşni",
+    "name_en": "Salt and vinegar seasoning",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "orta",
+    "note_tr": "Lezzet artırıcı MSG (Monosodyum glutamat) ve sodyum türevleri içeren karmaşık toz aroma."
+  },
+  {
+    "id": "vinegar_flavor",
+    "name_tr": "Sirke aroma vericisi",
+    "name_en": "Vinegar flavoring",
+    "e_code": null,
+    "type": "additive",
+    "categories": ["katki", "aroma"],
+    "risk_level": "dusuk",
+    "note_tr": "Genellikle sodyum diasetat formunda kullanılan yapay ekşi aroma."
+  },
+  {
+    "id": "corn_starch",
+    "name_tr": "Mısır nişastası",
+    "name_en": "Corn starch",
+    "e_code": null,
+    "type": "food",
+    "categories": ["temel", "kivam_arttirici"],
+    "risk_level": "orta",
+    "note_tr": "Karbonhidrat bazlı kıvam artırıcıdır. Glisemik indeksi yüksektir."
+  }
+]
