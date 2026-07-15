@@ -1,16 +1,16 @@
-# nutri_scan_demo
+# 🍏 NutriScan: AI-Powered Food Ingredient Analyzer
 
-A new Flutter project.
+NutriScan, market alışverişlerinde kullanıcıların sağlık profillerine uygun kararlar almasını sağlayan yapay zeka (AI) ve görüntü işleme (OCR) destekli bir akıllı etiket okuma asistanıdır.
 
-## Getting Started
+## 🚀 Özellikler
+* **Gelişmiş OCR Taraması:** Ürün paketlerindeki içindekiler kısmını saniyeler içinde okur ve metne dönüştürür.
+* **Akıllı Fuzzy Matching (Bulanık Eşleşme):** E-kodları ve içerikleri %82 benzerlik oranı ile analiz eder; alerjenleri ve katkı maddelerini hatasız yakalar.
+* **Kişiselleştirilmiş Sağlık Profili:** Kullanıcının (Vegan, Çölyak, Şeker/Tuz hassasiyeti vb.) profiline göre anlık risk uyarıları verir.
+* **Bebek Modu:** Taranan ürünün bebeğinizin ayına uygunluğunu analiz eder (Örn: Bal veya Şeker uyarısı).
+* **Groq API & Llama-3.3 Entegrasyonu:** Riskli bulunan ürünler için sağlıklı, doğal alternatifleri anında üretir ve içeriklerin bilimsel zararlarını açıklar.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Kullanılan Teknolojiler
+* **Mobil Geliştirme:** Flutter, Dart
+* **Backend:** Firebase (Firestore)
+* **Görüntü İşleme:** Google ML Kit (Text Recognition), Image Cropper
+* **Yapay Zeka:** Groq API (Llama-3.3-70b-versatile)
